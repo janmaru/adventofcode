@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace adventofcode
 {
@@ -6,7 +7,15 @@ namespace adventofcode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("First day------");
+            Console.WriteLine(Days.One.FirstChallenge());
+            Console.WriteLine("---------------");
+            Console.WriteLine(Days.One.SecondChallenge());
+            Console.WriteLine("Second day------");
+            Console.WriteLine(Days.Two.FirstChallenge());
+            Console.WriteLine("---------------");
+            Console.WriteLine(Days.Two.SecondChallenge());
+            Console.ReadKey(true);
         }
     }
 }
