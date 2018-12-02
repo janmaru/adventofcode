@@ -1,4 +1,4 @@
-# adventofcode
+# Advent of Code 2018
 
 
 ## Given some static classes to load the data:
